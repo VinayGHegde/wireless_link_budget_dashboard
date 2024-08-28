@@ -135,9 +135,9 @@ app.layout = html.Div([
                     html.Div([
                                     html.Img(
                                                     # src=app.get_asset_url('Verkada-Logo-Vert-Black.png'),
-                                                    #src=app.get_asset_url('verkada-icon-black.png'),
+                                                    src=app.get_asset_url('verkada-icon-black.png'),
                                                     # className = 'two columns',
-                                                    #style = {'height':'8%', 'width': '8%', 'paddingLeft': '15px'}
+                                                    style = {'height':'8%', 'width': '8%', 'paddingLeft': '15px'}
                                             )
                             ]),
                         ], width=3),
@@ -269,7 +269,7 @@ def render_content(tab):
                         dcc.Markdown(['''
                                     ###### **_VerkPlot_** is built to visualize communication link margins for various wireless technologies and devices in a simple and straightforward way. Therefore, any feedback to make this tool better is always welcome.
 
-                                    ###### If you come across any bugs with the tool or have any feature requests, please email - [vinay.hegde@verkada.com](https://outlook.office365.com/mail/) or send a message on [Slack](https://app.slack.com/client/T28NQT9F1/D04KKCF3KJ7?cdn_fallback=1.
+                                    ###### If you come across any bugs with the tool or have any feature requests, please email - [vinay.hegde@verkada.com](https://outlook.office365.com/mail/) or send a message on [Slack](https://app.slack.com/client/T28NQT9F1/D04KKCF3KJ7?cdn_fallback=1).
                                     '''], 
                                     style={'color': 'black', 'font-weight': 'normal', "text-align": "center"}),
 
