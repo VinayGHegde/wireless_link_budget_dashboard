@@ -133,9 +133,9 @@ app.layout = html.Div([
                     html.Div([
                                     html.Img(
                                                     # src=app.get_asset_url('Verkada-Logo-Vert-Black.png'),
-                                                    src=app.get_asset_url('verkada-icon-black.png'),
+                                                    #src=app.get_asset_url('verkada-icon-black.png'),
                                                     # className = 'two columns',
-                                                    style = {'height':'8%', 'width': '8%', 'paddingLeft': '15px'}
+                                                    #style = {'height':'8%', 'width': '8%', 'paddingLeft': '15px'}
                                             )
                             ]),
                         ], width=3),
