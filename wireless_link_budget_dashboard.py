@@ -368,7 +368,7 @@ def render_layout(filtering):
                                                         # className = "six columns"
                                                         ),
                                         ], 
-                                        style={'marginLeft':'80px', 'marginRight':'200px', 'padding-left':"200px"}
+                                        style={'marginLeft':'50px', 'marginRight':'100px', 'padding-left':"100px"}
                                         )
                                     ], 
                                     width={'size': 3,  "offset": 0}
@@ -567,7 +567,7 @@ def render_layout(filtering):
                                                     # className = "six columns"
                                                     ),
                                     ], 
-                                    style={'marginLeft':'80px', 'marginRight':'200px', 'padding-left':"200px"}
+                                    style={'marginLeft':'50px', 'marginRight':'100px', 'padding-left':"100px"}
                                     )
                                 ], 
                                 width={'size': 3,  "offset": 0}
