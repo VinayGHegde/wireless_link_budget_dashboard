@@ -25,7 +25,8 @@ server = app.server
 
 # Read device specification file from directory
 #--------------------------------------------------------
-df = pd.read_csv('device_specifications_csv.csv')
+#df = pd.read_csv('device_specifications_csv.csv')
+df = pd.read_csv('https://github.com/VinayGHegde/wireless_link_budget_dashboard/device_specifications_csv.csv')
 #--------------------------------------------------------
 
 
