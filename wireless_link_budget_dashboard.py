@@ -269,7 +269,7 @@ def render_content(tab):
                         dcc.Markdown(['''
                                     ###### **_VerkPlot_** is built to visualize communication link margins for various wireless technologies and devices in a simple and straightforward way. Therefore, any feedback to make this tool better is always welcome.
 
-                                    ###### If you come across any bugs with the tool or have any feature requests, please email - [vinay.hegde@verkada.com](https://outlook.office365.com/mail/) or send a message on [Slack](https://fb.workplace.com/chat/t/100056117707070).
+                                    ###### If you come across any bugs with the tool or have any feature requests, please email - [vinay.hegde@verkada.com](https://outlook.office365.com/mail/) or send a message on [Slack](https://app.slack.com/client/T28NQT9F1/D04KKCF3KJ7?cdn_fallback=1.
                                     '''], 
                                     style={'color': 'black', 'font-weight': 'normal', "text-align": "center"}),
 
