@@ -19,6 +19,7 @@ from dash.exceptions import PreventUpdate
 #--------------------------------------------------------
 app = dash.Dash(__name__, suppress_callback_exceptions=True, external_stylesheets=[dbc.themes.BOOTSTRAP])
 # app = dash.Dash(__name__, suppress_callback_exceptions=True)
+server = app.server
 #--------------------------------------------------------
 
 
@@ -839,5 +840,5 @@ def update_datatable(tx_dropdown, rx_dropdown, technology_sel):
 # Run App
 #--------------------------------------------------------------------------------------------------------------------------
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=False)
 #--------------------------------------------------------------------------------------------------------------------------
